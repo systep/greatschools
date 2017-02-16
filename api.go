@@ -82,7 +82,7 @@ type Address struct {
 // GetSchools fetches schoold from greatschools.org API
 func (c *Client) GetSchools(r *Request) (*Response, error) {
 	if r.Lat == 0 || r.Lon == 0 {
-		return nil, fmt.Errorf("must provide lat and lon")
+		return nil, fmt.Errorf("greatschools.GetSchools: must provide lat and lon")
 	}
 
 	sURL := fmt.Sprintf("%s?lat=%f&lon=%f&level=%s", baseURL, r.Lat, r.Lon, r.Level)
