@@ -1,4 +1,4 @@
-# GreatSchools [![CircleCI](https://circleci.com/gh/orcaman/greatschools.svg?style=svg&circle-token=03da7c8ea3bead0f24e2beb905dba35ca74e7dcf)](https://circleci.com/gh/orcaman/greatschools)
+# GreatSchools [![CircleCI](https://circleci.com/gh/skyline-ai/greatschools.svg?style=svg&circle-token=03da7c8ea3bead0f24e2beb905dba35ca74e7dcf)](https://circleci.com/gh/skyline-ai/greatschools)
 
 The following is an unoffical go client for the GreatSchools API. GreatSchools is a website that provides stats about great schools in geos.
 This unoffical software is not affiliated with GreatSchools.org in any way. Visit GreatSchools [here](http://www.greatschools.org/).
@@ -16,7 +16,7 @@ import (
 
 	"encoding/json"
 
-	"github.com/orcaman/greatschools"
+	"github.com/skyline-ai/greatschools"
 )
 
 var (
